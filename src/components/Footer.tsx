@@ -8,6 +8,7 @@ export default function Footer() {
         <div className={styles.right}>
           <nav className={styles.links}>
             <a href="https://github.com" className={styles.link} target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://instagram.com" className={styles.link} target="_blank" rel="noopener noreferrer">Instagram</a>
             <a href="https://vercel.com" className={styles.link} target="_blank" rel="noopener noreferrer">Vercel</a>
             <a href="https://convex.dev" className={styles.link} target="_blank" rel="noopener noreferrer">Convex</a>
           </nav>

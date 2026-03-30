@@ -1,0 +1,30 @@
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.strip {
+  width: 100%;
+  background: var(--color-ink);
+  overflow: hidden;
+  padding: var(--space-4) 0;
+  cursor: default;
+}
+
+.track {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 28s linear infinite;
+}
+
+.strip:hover .track {
+  animation-play-state: paused;
+}
+
+.track span {
+  font-family: var(--font-hand);
+  font-size: var(--text-lg);
+  color: var(--color-bg);
+  letter-spacing: 0.05em;
+  padding-right: var(--space-4);
+}

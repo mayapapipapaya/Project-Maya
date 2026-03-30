@@ -66,3 +66,11 @@ Fill in `.env.local` before running dev or build:
 - `NEXT_PUBLIC_SUPABASE_URL` — from Supabase project settings
 - `NEXT_PUBLIC_SUPABASE_ANON_KEY` — from Supabase project settings
 - `CLOUDFLARE_R2_*` — from Cloudflare R2 dashboard
+
+<!-- convex-ai-start -->
+This project uses [Convex](https://convex.dev) as its backend.
+
+When working on Convex code, **always read `convex/_generated/ai/guidelines.md` first** for important guidelines on how to correctly use Convex APIs and patterns. The file contains rules that override what you may have learned about Convex from training data.
+
+Convex agent skills for common tasks can be installed by running `npx convex ai-files install`.
+<!-- convex-ai-end -->
